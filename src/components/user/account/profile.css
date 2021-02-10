@@ -1,0 +1,120 @@
+.my__account {
+  background-color: white;
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+}
+
+.my__account__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.my__account__header {
+  padding: 20px;
+  border-bottom: 2px solid #efefef;
+  padding: 22px;
+  height: 80px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.my__account__header__title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.my__account__header__subtitle {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #555;
+  margin-top: 3px;
+}
+
+.my__account__input {
+  display: flex;
+  height: 40vh;
+  padding: 22px 50px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.my__account__profile__left {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.input__with-label {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input__with-label__label {
+  width: 20%;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.input__container {
+  width: 60%;
+}
+.input__text {
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-save {
+  width: 100px;
+  background-color: rgb(36, 170, 36);
+  outline: none;
+  border: none;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+}
+
+.btn-save:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.my__account__profile__right {
+  width: 17.15rem;
+  border-left: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__upload {
+  width: 100px;
+  height: 100px;
+}
+.avatar__upload__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .my__account__input {
+    display: block;
+  }
+
+  .my__account {
+    width: 95%;
+    height: 100vh;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .my__account__profile__right {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.search {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.search > input {
+  width: 94%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .search {
+    margin-bottom: 10px;
+  }
+}
